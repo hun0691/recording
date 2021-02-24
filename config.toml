@@ -1,0 +1,16 @@
+baseurl = "http://localhost:1313"
+title = "RECORDING on PIUH PROJECT PROCESSING"
+
+languageCode = "ko-KR"
+DefaultContentLanguage = "kr"
+theme = "hugo-hello-programmer-theme"
+disqusShortname = "XXXX"
+googleAnalytics = "UA-XXXXXXXX-X"
+paginate = 7
+
+[author]
+    name = "JungHOON"
+    email = "test"
+
+[params]
+    description = "desribe-your-site"
