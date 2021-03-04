@@ -158,29 +158,20 @@ ad53451e1948: Pushed                                                            
    # 2. 윈도우용 kustomize binary 파일 다운로드(kustomize.exe)
    ```
 
-
-  ## 5. etc 
-
- 2.2 Docker 파일 빌드 결과로 생성된 이미지를 컨테이너로 띄웠을때 에러가 발생함
-  
-
-  why 
-
-   컨테이너 실행시 app.jar 를 실행하게 했고, 작성한 app 내용중 DB 연결할때 localhost 로 연결하도록 되어있음.
-  
-  what 
-   
-  
-   컨테이너 실행 시점에 localhost는 내 pc가 아닌 컨테이너 자체
- 
-  how 
-
-   1. DB 접속시 localhost가 아닌 퍼블릭 환경을 이용한다. (ZDB 등)
-
-   2. localhost를 이용한다. 
-
-     2.1 컨테이너 내부에 localhost DB도 같이 생성한다.
-     2.2 컨테이너가 localhost를 내 PC로 인식할 수 있게 해준다.
+ * secret 정보가 변경된 경우 삭제 후 재 등록한다
+ ```
 
 
 
+```
+kubectl delete secret regcred -n 네임스페이스
+```
+
+```
+kubectl create secret docker-registry regcred --docker-server=서버주소
+--docker-username=계정 
+--docker-password=cli_패스워드
+--docker-email=주소
+```
+
+ ```

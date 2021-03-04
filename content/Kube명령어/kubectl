@@ -1,0 +1,10 @@
+
+
+
+```
+kubectl delete secret regcred -n piuh-pilot
+```
+
+```
+kubectl create secret docker-registry regcred --docker-server=asf-registry.cloudzcp.io --docker-username=jhson --docker-password=5Up8t96S6 --docker-email=test@sk.com
+```
