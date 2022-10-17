@@ -1,8 +1,12 @@
-
+---
+title: "Spring boot ZCP배포"
+date: 2021-03-30T21:37:45+09:00
+draft: true
+---
 
 # 1. 개요 
 
-* Spring boot로 생성한 jar 파일을 클라우드 환경에 배포한다. (ZCP) 
+* Spring boot로 생성한 jar 파일을 클라우드 환경에 배포한다. 
 
 >  사용 tool , frameWork 
 ```

@@ -1,5 +1,5 @@
-baseurl = "http://localhost:1313"
-title = "RECORDING on PIUH PROJECT PROCESSING"
+baseurl = "https://hun0691.github.io/"
+title = "Read, Write, Memory"
 
 languageCode = "ko-KR"
 DefaultContentLanguage = "kr"

@@ -1,3 +1,9 @@
+---
+title: "Piuh"
+date: 2021-03-30T21:37:45+09:00
+draft: true
+---
+
 ## 1. docker maria 이미지 다운로드 & 컨테이너 실행
 ```
 docker run -d -p 33333:3306 -e MYSQL_ROOT_PASSWORD=root mariadb
