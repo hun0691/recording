@@ -6,6 +6,16 @@ draft: true
 
 
 
-참고 
 
-https://kyu9341.github.io/Git/2020/08/23/git_gitignore/
+
+```
+fatal: Authentication failed for
+```
+
+GIT 인증정보를 다시 갱신 해줘야 한다.
+
+명령어
+
+```
+git config --system --unset credential.helper
+```
